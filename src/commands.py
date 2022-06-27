@@ -34,6 +34,7 @@ def begin_analysing_csv(config: Config):
 def iterate_data(iter: Iterator, config: Config):
   rows_in_range = []
   total_bought = 0
+  
   for row in iter:
     date = row[0]
     if config.date_witin_range(date):
@@ -46,6 +47,16 @@ def iterate_data(iter: Iterator, config: Config):
   
   config.spent_for_period = len(rows_in_range) * config.dca_amount
   config.total_bought = total_bought
+  config.total_value_at_price = config.sell_at_price * total_bought
 
+def print_output(config: Config):
   print('You would have spent', config.spent_for_period, '$')
-  print('Total bought for period ', total_bought)
+  print('Total coin bought for period', config.total_bought)
+  print('If you sold at', config.sell_at_price, 'you would have made', config.total_value_at_price)
+
+  percentage = config.total_value_at_price / config.spent_for_period
+
+  if percentage > 1:
+    print('This would make a', percentage, 'times the return')
+  else:
+    print('Oh oooh, not a good deal. You would get', percentage, 'times the return')
