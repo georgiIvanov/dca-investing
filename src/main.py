@@ -1,7 +1,13 @@
-import csv
+import sys
+from config import Config
+from commands import print_all_coins, begin_analysing_csv
 
-def start():
-  print('start fn')
 
 if __name__ == '__main__':
-  start()
+  args = sys.argv
+  if args[1] == 'list':
+    print_all_coins()
+  elif args[1] == 'dca':
+    begin_analysing_csv(Config(args[2:]))
+  else:
+    print("unknown command")
