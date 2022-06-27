@@ -1,0 +1,101 @@
+Rank,Name,Symbol,Price,Market cap,Dataset Availability
+1,Bitcoin,BTC,"$31,349.33","$596,741,142,607",True
+2,Ethereum,ETH,"$2,309.25","$278,750,629,755",True
+3,Tether,USDT,$1,"$83,262,348,316",True
+4,USD Coin,USDC,$1,"$53,638,319,053",True
+5,Binance Coin,BNB,$312.23,"$51,554,406,287",True
+6,Ripple,XRP,$0.5173,"$25,012,720,559",True
+7,Solana,SOL,$67.51,"$22,726,059,393",True
+8,Cardano 8,ADA,$0.6476,"$22,153,042,517",True
+9,Terra,LUNA,$51.75,"$21,022,323,765",True
+10,TerraUSD,UST,$0.9819,"$18,429,838,312",True
+11,Binance USD,BUSD,$1,"$17,880,965,711",True
+12,Dogecoin,DOGE,$0.1102,"$14,620,318,225",True
+13,Avalanche,AVAX,$44.72,"$12,028,864,063",True
+14,Polkadot,DOT,$11.27,"$11,131,895,280",True
+15,Dai Stablecoin,DAI,$0.9998,"$10,218,501,076",True
+16,Shiba Inu,SHIB,$0.0000154,"$9,081,502,451",True
+17,Wrapped Bitcoin,WBTC,"$31,304.79","$8,887,586,404",True
+18,TRON,TRX,$0.0786,"$8,003,549,399",True
+19,NEAR Protocol,NEAR,$10.59,"$7,225,197,055",True
+20,Polygon,MATIC,$0.8294,"$6,509,849,930",True
+21,Litecoin,LTC,$82.53,,True
+22,Cronos,CRO,$0.2209,,True
+23,FTX Token,FTT,$31.49,,True
+24,Unus Sed,LEO,$5.28,,True
+25,Uniswap,UNI,$6.52,,True
+26,Bitcoin Cash,BCH,$233.51,,True
+27,Algorand,ALGO,$0.6478,,True
+28,ChainLink,LINK,$8.85,,True
+29,OKB,OKB,$14.4,,True
+30,Stellar,XLM,$0.1482,,True
+31,Monero,XMR,$188.34,,True
+32,Cosmos 32,ATOM,$14.46,,True
+33,Ethereum Classic,ETC,$24.09,,True
+34,ApeCoin,APE,$9.37,,True
+35,Vechain,VET,$0.0402,,True
+36,Internet Computer,ICP,$10.61,,True
+37,Hedera Hashgraph,HBAR,$0.1136,,True
+38,Elrond,EGLD,$106.68,,True
+39,Filecoin,FIL,$11.62,,True
+40,The Sandbox,SAND,$1.8,,True
+41,Decentraland,MANA,$1.16,,True
+42,Tezos,XTZ,$2.16,,True
+43,Theta,THETA,$1.78,,True
+44,EOS,EOS,$1.8,,True
+45,PancakeSwap,CAKE,$5.87,,True
+46,Axie Infinity,AXS,$27.87,,True
+47,THORChain,RUNE,$4.9,,True
+48,TrueUSD,TUSD,$1,,True
+49,Fantom,FTM,$0.5914,,True
+50,Klaytn,KLAY,$0.5328,,True
+51,Waves,WAVES,$13.75,,True
+52,Aave,AAVE,$106.22,,True
+53,Helium,HNT,$12,,True
+54,Huobi Token,HT,$7.99,,True
+55,Zcash,ZEC,$98.16,,True
+56,BitTorrent(new),BTT,$0.00000147,,True
+57,Flow,FLOW,$3.74,,True
+58,Green Metaverse,GMT,$2.25,,True
+59,Graph,GRT,$0.2602,,True
+60,Convex Finance,CVX,$19.73,,True
+61,Bitcoin SV,BSV,$62.88,,True
+62,eCash,XEC,$0.00006229,,True
+63,MIOTA,IOTA,$0.4151,,False
+64,Maker,MKR,"$1,082.55",,True
+65,KuCoin Token,KCS,$14.02,,True
+66,Neo,NEO,$14.27,,True
+67,Curve,CRV,$2.05,,True
+68,Pax Dollar,USDP,$0.9976,,True
+69,Nexo,NEXO,$1.69,,True
+70,Stacks,STX,$0.7072,,True
+71,Celo,CELO,$2.08,,True
+72,Kusama,KSM,$100.02,,True
+73,Quant,QNT,$73.62,,True
+74,Zilliqa,ZIL,$0.0674,,True
+75,Chiliz,CHZ,$0.1416,,True
+76,Dash,DASH,$75.43,,True
+77,Gala,GALA,$0.1144,,True
+78,SAFE,SAFE,$38.24,,True
+79,Loopring,LRC,$0.5782,,True
+80,Harmony,ONE,$0.0625,,True
+81,XinFin,XDC,$0.0601,,True
+82,Enjin Coin,ENJ,$0.8248,,True
+83,Mina Protocol,MINA,$1.45,,True
+84,Basic Attention,BAT,$0.4751,,True
+85,Gatechain Token,GT,$5.71,,True
+86,Threshold Network,T,$0.0668,,True
+87,Lido DAO,LDO,$2.13,,True
+88,PAX Gold,PAXG,"$1,857.92",,True
+89,Bitkub Coin,KUB,$3.38,,False
+90,Amp,AMP,$0.0144,,True
+91,Decred,DCR,$42.78,,True
+92,Holo,HOT,$0.00344,,True
+93,Compound,COMP,$85.17,,True
+94,Arweave,AR,$17.17,,True
+95,NEM,XEM,$0.0636,,True
+96,1inch Token,1INCH,$1.34,,True
+97,ICON,ICX,$0.5993,,True
+98,BitDAO,BIT,$0.9193,,True
+99,Kava,KAVA,$3,,True
+100,Theta Fuel,TFUEL,$0.0972,,True
