@@ -38,12 +38,14 @@ def iterate_data(iter: Iterator, config: Config):
     date = row[0]
     if config.date_witin_range(date):
       rows_in_range.append(row)
-      # Right now the Open price is used
-      # but you can use any other by changing the index
-      # or you can calculate an average
-      bought_that_day = (1 / float(row[1])) * config.dca_amount
+      
+      # also called typical price = (H+L+C)/3
+      typical_price_average = (float(row[2]) + float(row[3]) + float(row[4])) / 3
+      bought_that_day = (1 / typical_price_average) * config.dca_amount
       total_bought += bought_that_day
   
+  config.spent_for_period = len(rows_in_range) * config.dca_amount
   config.total_bought = total_bought
+
+  print('You would have spent', config.spent_for_period, '$')
   print('Total bought for period ', total_bought)
-  
