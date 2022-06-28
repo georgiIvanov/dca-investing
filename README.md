@@ -31,12 +31,15 @@ To show all available coins use
 Example: To calculate DCA returns on Ether for a given range use
 
 `python3 src/main.py dca Ethereum.csv 2018-10-01 2020-04-30 40 3000`
+
 - This will tell you how much you would win (or lose) if you bought ether for 40\$ every day within the given date range and sold when 1 ether equals 3000\$
 
 -----
 
 To compare the exact same strategy as above but for Solana you would use:
+
 `python3 src/main.py dca Solana.csv 2018-10-01 2020-04-30 40 220`
+
 - Here you would buy for the exact same period and amount (\$40 a day) as the example above. And you would sell for the price of 220\$ a SOL.
 
 ## Data
