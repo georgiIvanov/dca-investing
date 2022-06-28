@@ -2,8 +2,7 @@ import sys
 from config import Config
 from commands import print_all_coins, begin_analysing_csv, print_output
 
-
-if __name__ == '__main__':
+def main():
   args = sys.argv
   if args[1] == 'list':
     print_all_coins()
@@ -13,3 +12,6 @@ if __name__ == '__main__':
     print_output(config)
   else:
     print("unknown command")
+
+if __name__ == '__main__':
+  main()
