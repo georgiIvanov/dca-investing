@@ -17,5 +17,6 @@ class Config:
     self.total_value_at_price: float = 0
 
   def date_witin_range(self, date: str) -> bool:
-    date = datetime.strptime(date, '%Y-%m-%d')
+    parts = date.split('T')
+    date = datetime.strptime(parts[0], '%Y-%m-%d')
     return self.begin <= date <= self.end
